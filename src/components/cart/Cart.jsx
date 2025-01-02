@@ -37,12 +37,14 @@ function Cart() {
           <p>${item.price}</p>
 
           {
-            !paymentView && (
+            !paymentView ? (
               <div>
             <button onClick={() => updateQuantity(item.id, -1)}>-</button>
             <span>{item.quantity}</span>
             <button onClick={() => updateQuantity(item.id, 1)}>+</button>
           </div>
+            ) : (
+              <span>{item.quantity}</span>
             )
           }
 
