@@ -1,0 +1,93 @@
+.wrapper2 {
+   
+    width: 420px;
+    max-height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 170px;
+    right: 50px;
+    overflow-x: auto;
+    overflow-x: hidden; 
+    
+    
+    
+    
+    
+  }
+  
+  .wrapper2::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  .wrapper2::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+  }
+  
+  .wrapper2::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  
+  .wrapper2::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+  
+  
+  
+  .shoe:hover {
+    transform: scale(1.05);
+  }
+  
+  .wrapper2 img {
+    width: 50px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+  }
+  
+  .cartDesign {
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    
+  }
+  
+  h3 {
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    
+  }
+  
+  h2 {
+    
+    color: blueviolet;
+  }
+  
+  .cart-item button {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    border: none;
+    color: white;
+  }
+
+  .main-btn {
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
